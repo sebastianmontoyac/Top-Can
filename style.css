@@ -1,0 +1,102 @@
+
+
+
+
+/* .mainheader{
+    position: fixed;
+    height: 90px;
+
+    background-color: white;
+} */
+*{box-sizing: border-box;
+margin: 0;padding: 0;}
+
+html{
+    font-size: 62.5%;
+    
+
+}
+header{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-width: 614px;
+}
+.mainheader__logo{
+    justify-content: space-evenly;
+}
+.mainheader__logo img{
+    top: 3px;
+    width: 80px;
+    position: relative;
+    left: 25px;
+}
+.mainheader__horario{
+    justify-content: space-evenly;
+}
+.mainheader__horario p{
+    position: absolute;
+    top: 6px;
+    left: 183px;
+    font-size: 1.3rem;
+    height: 30px;
+
+}
+.mainheader__horario--logo{
+    height: 28px;
+    position: absolute;
+    top:0;
+    margin-top: 2px;
+    left: 152px;
+}
+.mainheader__wassap{
+    justify-content: space-evenly;
+}
+.mainheader__wassap--logo{
+    position: absolute;
+    height: 28px;    
+    top: 32px;
+    left: 143px; 
+
+}
+.mainheader__wassap p{
+    position: absolute;
+    top: 32px;
+    left: 183px;
+    font-size: 1.3rem;
+    height: 30px;
+    padding: 8px;
+}
+.mainheader__instagram{justify-content: space-evenly;}
+.mainheader__instagram--logo{
+    position: absolute;
+    height: 28px;    
+    top: 32px;
+    left: 287px; 
+}
+.mainheader__instagram p{
+    position: absolute;
+    top: 32px;
+    left: 315px;
+    font-size: 1.3rem;
+    height: 30px;
+    padding: 5px;
+}
+.mainheader__location{
+    justify-content: space-evenly;
+}
+.mainheader__location--logo{
+    position: absolute;
+    height: 28px;    
+    top: 55px;
+    left: 206px; 
+}
+.mainheader__location p{
+    position: absolute;
+    top: 59px;
+    left: 224px;
+    font-size: 1.3rem;
+    height: 30px;
+    padding: 5px;
+}
