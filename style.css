@@ -103,7 +103,7 @@ header{
 }
 main{
     width: 100%;
-    display: flex;
+    /* display: flex; */
    flex-direction: column;
    align-items: center;
    }
@@ -117,14 +117,53 @@ main{
 }
 .main__section2{
     background-color:#8ed4f6 ;
+    width: 100%;
+    height:637px ;
 }
 .main__section3{
     background-color:#c9eaf9;
+    width: 100%;
+    height:637px;
 }
 .main__section4{
     background-color:#8fefff;
+    width: 100%;
+    height:637px;
 }
-    
+ 
+.main--button1{
+    text-align: center;
+    border-radius: 10px;
+    background-color:#43509e ;
+    font-size: 2rem;
+    width: 15%;
+    position: relative;
+    left: 50% ;
+    top: 80%;
+    box-shadow:-4px 5px 11px 2px #4c585d;
+}
+.main--button2{
+    text-align: center;
+    border-radius: 10px;
+    background-color:#43509e ;
+    font-size: 2rem;
+    width: 15%;
+    position: relative;
+    left: 50% ;
+    top: 80%;
+    box-shadow:-4px 5px 11px 2px #4c585d;
+}
+.main--button3{
+    text-align: center;
+    border-radius: 10px;
+    background-color:#43509e ;
+    font-size: 2rem;
+    width: 15%;
+    position: relative;
+    left: 50% ;
+    top: 80%;
+    box-shadow:-4px 5px 11px 2px #4c585d;
+}
 .fotter{
     background-color: grey;
 }
