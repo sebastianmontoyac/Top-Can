@@ -1,13 +1,9 @@
 
 
 
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-/* .mainheader{
-    position: fixed;
-    height: 90px;
 
-    background-color: white;
-} */
 *{
     box-sizing: border-box;
     margin: 0;
@@ -24,10 +20,26 @@ html{
      min-height: 794px;
     
  }
+ a{
+     color: black;
+ }
+ a:link {
+    color: blue;
+    
+}
+a:active {
+color: blue;
+}
  .mainheader{
-  
+    font-family: 'Lobster Two', cursive; 
+    font-weight: 400;
     background-color: white;
     margin-bottom: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 10;
 }
  .maindiv{
     align-items: flex-start;
@@ -40,12 +52,11 @@ html{
      margin-top: 10px;
    
  }
-
+.maindiv p{
+    font-size: 1.8rem;
+}
  .mainheader__logo img{
     width: 80px;
-}
-.mainheader__horario p{
-font-size: 1.2rem;
 }
 
  .mainheader__horario--logo{
@@ -55,18 +66,14 @@ font-size: 1.2rem;
 .mainheader__wassap{
     margin-right: 4px;
 }
-.mainheader__wassap p{
-    font-size: 1.2rem;
-}
+
 .mainheader__wassap--logo{
     height: 28px;    
 }
 .mainheader__instagram{
     padding: 0 5px;
 }
-.mainheader__instagram p{
-    font-size: 1.2rem;
-}
+
 .mainheader__instagram a{
     text-decoration: none;
     color: black;
@@ -75,9 +82,7 @@ font-size: 1.2rem;
     height: 28px;
     margin: 0 0 0 18px;    
 }
-.mainheader__location p{
-    font-size: 1.2rem;
-}
+
 .mainheader__location--logo{
     height: 28px;    
 }
@@ -90,6 +95,8 @@ font-size: 1.2rem;
  
  
  .main__section1{
+    
+    margin-top: 115px;
      width: 100vw;
     display: flex;
     align-items: center;
@@ -104,6 +111,9 @@ font-size: 1.2rem;
  }
  
 .main__section1 h1{
+   
+    font-family: 'Lobster Two', cursive; 
+    font-weight: 600;
     padding: 41px 0 0 0;
    color: white;
    font-size: 3.7rem;
@@ -112,6 +122,8 @@ font-size: 1.2rem;
 }
 
 .main--button1{
+    font-family: 'Lobster Two', cursive; 
+    font-weight: 400;
     position: relative;
     bottom: 20px;
     background-color:white ;
@@ -122,11 +134,9 @@ font-size: 1.2rem;
     
 }
 .main--button1 a{
+    
     text-decoration: none;
-    color: black;
-}
-:hover a{
-    /* pointer-events: visible; */
+    
 }
 
 
@@ -143,6 +153,8 @@ font-size: 1.2rem;
     border-radius: 120px;
 }
 .main__section2 h2{
+    font-family: 'Lobster Two', cursive; 
+    font-weight: 600;
     padding: 41px 0 0 0;
     color: white;
     font-size: 3.7rem;
@@ -150,6 +162,8 @@ font-size: 1.2rem;
      text-align: center;
 }
 .main--button2{
+    font-family: 'Lobster Two', cursive; 
+    font-weight: 400;
     background-color:white ;
     border-radius:12px;
     width: 15%;
@@ -161,7 +175,7 @@ font-size: 1.2rem;
 
 .main--button2 a{
     text-decoration: none;
-    color: black;
+    
 }
 .main__section3{
     width: 100vw;
@@ -177,6 +191,8 @@ font-size: 1.2rem;
     border-radius: 120px;
 }
 .main__section3 h2{
+    font-family: 'Lobster Two', cursive; 
+    font-weight: 600;
     padding: 41px 0 0 0;
     color: white;
     font-size: 3.7rem;
@@ -185,6 +201,8 @@ font-size: 1.2rem;
 }
 
 .main--button3{
+    font-family: 'Lobster Two', cursive; 
+    font-weight: 400;
     background-color:white ;
     border-radius:12px;
     width: 15%;
@@ -197,9 +215,11 @@ font-size: 1.2rem;
 
 .main--button3 a{
     text-decoration: none;
-    color: black;
+  
 }
 .fotter{
+    font-family: 'Lobster Two', cursive; 
+    font-weight: 400;
     text-align: end;
     background-color: grey;
 }
