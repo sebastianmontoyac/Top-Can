@@ -8,14 +8,103 @@
 
     background-color: white;
 } */
-*{box-sizing: border-box;
-margin: 0;padding: 0;}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
 
 html{
-    font-size: 62.5%;
+    font-size: 62.5%; 
+    width: 100%; 
+ }
+ .mainbody{
+     min-width: 320px;
+     min-height: 794px;
     
+ }
+ .maindiv{
+     margin-left: 10px;
+     margin-right: 10px;
+     display: flex;
+     justify-content:space-between;
+     align-content: flex-start;
+     justify-items:flex-start ;
+     margin-top: 10px;
+   
+ }
 
+ .mainheader__logo img{
+    width: 80px;
 }
+
+ .mainheader__horario--logo{
+    height: 28px;
+}
+ 
+.mainheader__wassap--logo{
+    height: 28px;    
+}
+ 
+.mainheader__instagram--logo{
+    height: 28px;
+    margin: 0 0 0 18px;    
+}
+.mainheader__location--logo{
+    height: 28px;    
+}
+ .mainprincipal{
+     display: flex;
+     flex-direction: column;
+     align-items: center
+    
+ }
+ 
+ 
+ .main__picture--img{
+     width: 100vw;
+    max-width: 100vw;
+     padding: 25px;
+     border-radius: 20px;
+ }
+ 
+ .main__section1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #43509e
+}
+.main__section1 h1{
+    text-shadow:0px -1px 1px rgba(255, 255,255, 0.73) ;
+}
+.main__picture--img2{
+    width: 100vw;
+    max-width: 100vw;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+.main__section2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color:#8ed4f6
+}
+.main__picture--img3{
+    width: 100vw;
+    max-width: 100vw;
+    padding: 25px;
+    border-radius: 20px;
+}
+.main__section3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color:#c9eaf9;
+}
+
+ /*
 header{
     position: relative;
     display: flex;
@@ -103,7 +192,7 @@ header{
 }
 main{
     width: 100%;
-    /* display: flex; */
+    display: flex; 
    flex-direction: column;
    align-items: center;
    }
@@ -166,4 +255,4 @@ main{
 }
 .fotter{
     background-color: grey;
-}
+}  */
